@@ -1,0 +1,9 @@
+{
+  "$schema": "https://typedoc.org/schema.json",
+  "plugin": [
+    "typedoc-plugin-markdown"
+  ],
+  "entryPointStrategy": "packages",
+  "entryPoints": ["./packages/prosekit"],
+  "out": "temp/typedoc"
+}

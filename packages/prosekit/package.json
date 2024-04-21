@@ -1,0 +1,19 @@
+{
+  "name": "prosekit",
+  "type": "module",
+  "version": "0.5.3",
+  "private": true,
+  "main": "./src/index.ts",
+  "module": "./src/index.ts",
+  "exports": {
+    ".": "./src/index.ts",
+    "./extensions": "./src/extensions.gen.ts",
+    "./extensions/autocomplete": "./src/extensions/autocomplete.gen.ts"
+  },
+  "dependencies": {
+    "@prosekit/extensions": "0.4.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "$schema": "https://typedoc.org/schema.json",
+  "plugin": [
+    "typedoc-plugin-markdown"
+  ],
+  "entryPoints": [
+    "./src/extensions.gen.ts",
+    "./src/extensions/autocomplete.gen.ts",
+  ]
+}
